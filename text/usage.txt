@@ -1,0 +1,16 @@
+Financial Market Analysis CLI Tool
+
+Usage:
+  python3 main.py <ticker> <start_date> <end_date>
+
+Arguments:
+  <ticker>      The stock or cryptocurrency symbol in Yahoo Finance format 
+                (e.g., NVDA, AAPL, BTC-USD). Case-insensitive.
+  <start_date>  The start date for data fetching in YYYY-MM-DD format 
+                (e.g., 2026-03-01).
+  <end_date>    The end date for data fetching in YYYY-MM-DD format 
+                (e.g., 2026-06-01).
+
+Requirements:
+  - All 3 arguments are mandatory.
+  - Dates must be valid calendar dates and formatted with hyphens.

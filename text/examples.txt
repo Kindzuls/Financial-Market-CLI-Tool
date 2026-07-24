@@ -1,0 +1,18 @@
+Examples of using the Financial Market Analysis CLI Tool
+
+1. Analyzing US Stocks (NVIDIA):
+   python3 main.py NVDA 2026-03-01 2026-06-01
+
+2. Analyzing US Stocks with lowercase ticker (Apple):
+   python3 main.py aapl 2025-09-01 2026-01-01
+
+3. Analyzing Cryptocurrencies (Bitcoin to USD):
+   python3 main.py BTC-USD 2026-01-01 2026-07-01
+
+4. Analyzing International Stocks (BMW on Frankfurt Stock Exchange):
+   python3 main.py BMW.DE 2025-06-01 2025-12-31
+
+Expected Behavior on Error:
+  - If you pass the wrong number of arguments, the tool will display the correct usage guide.
+  - If you provide an invalid date format (e.g., 01/03/2026), it will exit with "Not correct date".
+  - If the ticker doesn't exist or there is no data for the specified period, it will exit with "Error while downloading".
